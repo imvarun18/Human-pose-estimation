@@ -5,20 +5,18 @@ This repository contains a Streamlit application that performs human pose estima
 The app uses a pre-trained deep learning model to detect key body joints in the input image. The model is based on the OpenPose architecture and is implemented using OpenCV's DNN module.
 
 ## How to use
-Clone the repository:
-Bash
+1. Clone the repository:
+   git clone https://github.com/your-username/human-pose-estimation.git
 
-git clone https://github.com/your-username/human-pose-estimation.git
-Install the required packages:
-Bash
+2. Install the required packages:
+   pip install -r requirements.txt
+   
+3. Run the app:
+   streamlit run estimation_app.py
 
-pip install -r requirements.txt
-Run the app:
-Bash
+4. Upload an image or use the demo image.
 
-streamlit run estimation_app.py
-Upload an image or use the demo image.
-The app will display the original image and the estimated pose.
+5. The app will display the original image and the estimated pose.
 
 ## Requirements
 Python 3.7 or higher
