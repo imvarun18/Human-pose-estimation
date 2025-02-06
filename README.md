@@ -6,7 +6,7 @@ The app uses a pre-trained deep learning model to detect key body joints in the 
 
 ## How to use
 1. Clone the repository:
-   git clone https://github.com/your-username/human-pose-estimation.git
+   git clone https://github.com/imvarun18/Human-pose-estimation.git
 
 2. Install the required packages:
    pip install -r requirements.txt
